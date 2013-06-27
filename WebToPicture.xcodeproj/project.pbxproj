@@ -18,6 +18,7 @@
 		8545011D177C16FB004DC85B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854500FC177C16FA004DC85B /* Cocoa.framework */; };
 		85450125177C16FB004DC85B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85450123177C16FB004DC85B /* InfoPlist.strings */; };
 		85450127177C16FB004DC85B /* WebToPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85450126177C16FB004DC85B /* WebToPictureTests.m */; };
+		85450131177C17E0004DC85B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85450130177C17E0004DC85B /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		85450122177C16FB004DC85B /* WebToPictureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebToPictureTests-Info.plist"; sourceTree = "<group>"; };
 		85450124177C16FB004DC85B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85450126177C16FB004DC85B /* WebToPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebToPictureTests.m; sourceTree = "<group>"; };
+		85450130177C17E0004DC85B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85450131177C17E0004DC85B /* WebKit.framework in Frameworks */,
 				854500FD177C16FA004DC85B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		854500FB177C16FA004DC85B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85450130177C17E0004DC85B /* WebKit.framework */,
 				854500FC177C16FA004DC85B /* Cocoa.framework */,
 				8545011B177C16FB004DC85B /* XCTest.framework */,
 				854500FE177C16FA004DC85B /* Other Frameworks */,

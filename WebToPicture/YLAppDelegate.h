@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 @interface YLAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet WebView *webView;
+@property (weak) IBOutlet NSTextField *urlField;
+- (IBAction)save:(id)sender;
 
 @end
